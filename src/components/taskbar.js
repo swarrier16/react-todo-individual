@@ -4,9 +4,18 @@ import {bindActionCreators} from 'redux';
 import {addTask} from '../actions/';
 
 class TaskBar extends React.Component{
-    state = {
-        color : 'red'
-    };
+
+    // validateInput(task) {
+    //     if (!task) {
+    //         return "Enter a Task";
+    //     }
+    //     else if (_.find(this.props.todos, todo => todo.task === task)) { //searches todos in form <CreateTodo> app.js
+    //         return "Duplicate Task";
+    //     }
+    //     else {
+    //         return null; //return null, or no error
+    //     }
+    // }
 
     render(){
         return (

@@ -12,11 +12,6 @@ const taskReducer = (state=[], action)=>{
         case 'EDIT_TASK':
             state = state.update(action.payload);
             break;
-        case 'COMPLETE_TASK':
-            color: 'green';
-            // state = state.update(action.payload);
-            break;
-
     }
     return state;
  },
