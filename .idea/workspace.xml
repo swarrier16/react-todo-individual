@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06618f1d-cd67-4031-bdf0-95c76a007603" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/editTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editTask.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/taskbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/taskbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tasklist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tasklist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,8 +40,8 @@
       <file leaf-file-name="task.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="371">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -180,12 +174,12 @@
       <workItem from="1524410211836" duration="116000" />
       <workItem from="1524597480060" duration="1029000" />
       <workItem from="1524602634039" duration="631000" />
-      <workItem from="1525132302876" duration="11073000" />
+      <workItem from="1525132302876" duration="11634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33686000" />
+    <option name="totallyTimeSpent" value="34247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -527,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="371">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

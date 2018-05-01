@@ -21,12 +21,12 @@ class Task extends React.Component{
 
         return(
             <tr>
-                <td>
+                <td style={{color:this.state.color}}>
                     {this.props.task}
                 </td>
                 <td>
                     <button onClick={()=>{this.editTask.bind(this)}}>Edit</button>
-                    <button onClick={this.onClickButton} style={{backgroundColor:this.state.color}}>Mark Complete</button>
+                    <button onClick={this.onClickButton} >Mark Complete</button>
                     <button onClick={()=>{this.props.deleteTask(this.props.id)}}>Delete</button>
                 </td>
             </tr>
