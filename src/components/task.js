@@ -1,19 +1,32 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import {deleteTask, editTask} from "../actions";
+import {deleteTask, editTask, completeTask} from "../actions";
 
 
 class Task extends React.Component{
 
+    state = {
+        color : 'red'
+    };
+
+    onClickButton = () => {
+        this.setState({
+            color: 'green'
+        });
+    };
+
+
     render(){
+
         return(
             <tr>
                 <td>
                     {this.props.task}
                 </td>
                 <td>
-                    <button onClick={()=>{this.props.editTask(this.props.id)}}>Edit</button>
+                    <button onClick={()=>{this.editTask.bind(this)}}>Edit</button>
+                    <button onClick={this.onClickButton} style={{backgroundColor:this.state.color}}>Mark Complete</button>
                     <button onClick={()=>{this.props.deleteTask(this.props.id)}}>Delete</button>
                 </td>
             </tr>

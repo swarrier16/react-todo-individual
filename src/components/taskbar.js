@@ -4,6 +4,9 @@ import {bindActionCreators} from 'redux';
 import {addTask} from '../actions/';
 
 class TaskBar extends React.Component{
+    state = {
+        color : 'red'
+    };
 
     render(){
         return (

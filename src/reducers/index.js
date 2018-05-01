@@ -10,8 +10,11 @@ const taskReducer = (state=[], action)=>{
             state.splice(action.payload, 1);
             break;
         case 'EDIT_TASK':
-            state = state.slice();
-            state.splice(action.payload, 1);
+            state = state.update(action.payload);
+            break;
+        case 'COMPLETE_TASK':
+            color: 'green';
+            // state = state.update(action.payload);
             break;
 
     }

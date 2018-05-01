@@ -20,14 +20,6 @@ class TaskList extends React.Component{
             </table>
         );
     }
-
-    onEditClick(){
-        this.setState({ isEditing: true});
-    }
-
-    onCancelClick(){
-        this.setState({ isEditing: false});
-    }
 }
 
 function mapStateToProps(state) {

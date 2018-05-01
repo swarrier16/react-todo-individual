@@ -16,6 +16,11 @@ editTask =(task) =>{
         type:'EDIT_TASK',
         payload: task
     };
+},
+    completeTask =(taskId) =>{
+        return{
+            type:'COMPLETE_TASK',
+            payload: taskId
+        };
 };
-
-export {addTask, deleteTask, editTask};
+export {addTask, deleteTask, editTask, completeTask};
