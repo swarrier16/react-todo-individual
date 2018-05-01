@@ -13,7 +13,11 @@ class TaskBar extends React.Component{
             </div>
         );
     }
+
+
 }
+
+
 
 function mapDispatchToProps(dispatch){
     return bindActionCreators({addTask}, dispatch);

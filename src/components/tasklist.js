@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import Task from "./task";
+import EditTask from "./editTask";
 
 class TaskList extends React.Component{
 
@@ -18,6 +19,14 @@ class TaskList extends React.Component{
                 </tbody>
             </table>
         );
+    }
+
+    onEditClick(){
+        this.setState({ isEditing: true});
+    }
+
+    onCancelClick(){
+        this.setState({ isEditing: false});
     }
 }
 

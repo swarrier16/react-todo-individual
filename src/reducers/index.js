@@ -9,6 +9,10 @@ const taskReducer = (state=[], action)=>{
             state = state.slice();
             state.splice(action.payload, 1);
             break;
+        case 'EDIT_TASK':
+            state = state.slice();
+            state.splice(action.payload, 1);
+            break;
 
     }
     return state;
